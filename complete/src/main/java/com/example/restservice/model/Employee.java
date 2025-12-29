@@ -7,6 +7,10 @@ public class Employee {
     private String email;
     private String title;
 
+    public Employee() {
+
+    }
+
     public Employee(String employee_id, String first_name, String last_name, String email, String title) {
         this.employee_id = employee_id;
         this.first_name = first_name;
@@ -33,5 +37,25 @@ public class Employee {
 
     public String getTitle() {
         return title;
+    }
+
+    public void setEmployeeId(String employee_id) {
+        this.employee_id = employee_id;
+    }
+
+    public void setFirstname(String first_name) {
+        this.first_name = first_name;
+    }
+
+    public void setLastName(String last_name) {
+        this.last_name = last_name;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
     }
 }
